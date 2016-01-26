@@ -18,7 +18,6 @@ Address.prototype.fullAddress = function() {
   return this.street + ", " + this.city + ", " + this.state;
 };
 
-
 $(document).ready(function(){
   $("form#new-contact").submit(function(event){
     var inputtedFirstName = $("input#new-first-name").val();
